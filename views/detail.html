@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "components/head.html" %}
+    <title>Detail</title>
+</head>
+
+<body style="background:white">
+    {% include "components/header.html" %} {% if product %}
+    <div class="main_portfolio_content">
+        <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text" style="margin:140px 0 50px 0;">
+            <img src="/images/{{product.i_name}}" alt="" style="width:300px" ;/>
+
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-8" style="background-color:antiquewhite; width:600px; margin:140px 0 50px 0;">
+        <div class="row">
+            <h1 style="text-align:center">{{product.p_name}}</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Rate:{{product.rate}}</h3>
+                </div>
+                <div class="col-md-6">
+                    <h3>Time:{{product.octime}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Type:{{product.name}}</h3>
+                </div>
+                <div class="col-md-6">
+                    <h3>Price:{{product.price}}</h3>
+                </div>
+            </div>
+
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1">
+  Add
+</button>
+        <!-- Modal -->
+        <form action="/submit" method="post">
+            <div class="col-md-3" style="background-color:antiquewhite; padding-left:50px;float:right">
+                <input type="hidden" value="{{product.id_product}}" name="booking">
+            </div>
+
+            <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                        </div>
+                        <div class="modal-body" style="margin-left: 30px;">
+
+                            <div class="form-group row">
+
+                                <div class="col-10">
+                                    <input class="form-control" type="text" placeholder="Nhập họ tên" id="example-text-input" name="name" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+
+                                <div class="col-10">
+                                    <input class="form-control" type="number" placeholder="Nhập số điện thoại" id="example-search-input" name="phone" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+
+                                <div class="col-10">
+                                    <input class="form-control" type="text" placeholder="Nhập địa chỉ" id="example-email-input" name="address" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+
+                                <div class="col-10">
+                                    <input class="form-control" type="text" placeholder="Nhập thời gian nhận" id="example-url-input" name="time" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+
+                                <div class="col-10">
+                                    <input class="form-control" type="hidden" value="{{product.price}}" id="example-url-input" name="price">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Booking</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+    {% endif %} {% include "components/footer.html" %}
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <script src="/javascripts/vendor/jquery-1.11.2.min.js"></script>
+    <script src="/javascripts/vendor/bootstrap.min.js"></script>
+
+    <script src="/javascripts/jquery-easing/jquery.easing.1.3.js"></script>
+    <script src="/javascripts/wow/wow.min.js"></script>
+    <script src="/javascripts/plugins.js"></script>
+    <script src="/javascripts/main.js"></script>
+</body>
+
+</html>

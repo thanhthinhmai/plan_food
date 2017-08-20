@@ -1,0 +1,90 @@
+{
+    "0": {
+        "id_type": 2,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p1.png",
+        "name": "Cơm trứng",
+        "octime": " 10:00 AM - 09:30 PM",
+        "rate": 7.6,
+        "type": "main course",
+        "id": "BJbmBYj6e",
+        "price": 12
+    },
+    "1": {
+        "id_type": 1,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p2.png",
+        "name": "Salad",
+        "octime": "  10:00 AM - 09:30 PM",
+        "rate": 8.3,
+        "type": "appetizers",
+        "id": "ryHXSKs6g",
+        "price": 10
+    },
+    "2": {
+        "id_type": 2,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p3.png",
+        "name": "Gà nướng",
+        "octime": "   07:00 AM - 10:00 PM",
+        "rate": 6,
+        "type": "main course",
+        "id": "HJu7BKoal",
+        "price": 15
+    },
+    "3": {
+        "id_type": 1,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p4.png",
+        "name": "Nem cuốn",
+        "octime": "  08:00 AM - 10:00 PM",
+        "rate": 6.4,
+        "type": "appetizers",
+        "id": "Sk14rFsax",
+        "price": 10
+    },
+    "4": {
+        "id_type": 1,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p5.png",
+        "name": "Salad",
+        "octime": "  07:00 AM - 11:30 PM",
+        "rate": 7.4,
+        "type": "appetizers",
+        "id": "BygNHFoTl",
+        "price": 10
+    },
+    "5": {
+        "id_type": 2,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p6.png",
+        "name": "Đậu sốt",
+        "octime": "  09:00 AM - 11:00 PM",
+        "rate": 7.8,
+        "type": "main course",
+        "id": "BkPEBtsae",
+        "price": 13
+    },
+    "6": {
+        "id_type": 3,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p7.png",
+        "name": "Bánh ngọt",
+        "octime": "  08:00 AM - 10:00 PM",
+        "rate": 7.5,
+        "type": "dessert",
+        "id": "H1FNHFspg",
+        "price": 13
+    },
+    "7": {
+        "id_type": 2,
+        "address": "Ngõ 4, Nguyễn Đình Chiểu",
+        "image": "p8.png",
+        "name": "Cá chiên",
+        "octime": "  08:00 AM - 10:00 PM",
+        "rate": 7.5,
+        "type": "main course",
+        "id": "H2FNHFspg",
+        "price": 15
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "plan-food",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.17.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-session": "^1.15.5",
+    "express-validator": "^3.2.1",
+    "moment": "^2.18.1",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg-monitor": "^0.8.2",
+    "pg-promise": "^6.3.7",
+    "serve-favicon": "~2.4.2"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     {#{% include "components/head.html" %}#}
+</head>
+
+<body>
+                    {% if errors %}
+                 <div class="alert alert-danger">{{ errors[0].msg }}</div>
+               {%else%}
+    <h1>Đơn hàng thành công</h1>
+     {% endif %}
+</body>
+
+</html>
